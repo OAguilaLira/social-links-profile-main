@@ -1,2 +1,18 @@
+:root {
+    --background-color-primary: hsl(0, 0%, 8%);
+    --background-color-secondary: hsl(0, 0%, 12%);
+    --background-color-tertiary: hsl(0, 0%, 20%);
+}
+
+body {
+    background-color: var(--background-color-primary);
+}
+
+.profile-card {
+    background-color: var(--background-color-secondary);
+}
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
