@@ -2,14 +2,26 @@
     --background-color-primary: hsl(0, 0%, 8%);
     --background-color-secondary: hsl(0, 0%, 12%);
     --background-color-tertiary: hsl(0, 0%, 20%);
+    --text-color-primary: hsl(0, 0%, 100%);
+    --text-color-secondary: hsl(75, 94%, 57%);
 }
 
 body {
     background-color: var(--background-color-primary);
+    color: var(--text-color-primary);
 }
 
 .profile-card {
     background-color: var(--background-color-secondary);
+}
+
+.profile-card .user-country {
+    color: var(--text-color-secondary);
+}
+
+.social-link-button {
+    background-color: var(--background-color-tertiary);
+    color: var(--text-color-primary);
 }
 
 
