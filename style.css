@@ -14,10 +14,20 @@
 body {
     background-color: var(--background-color-primary);
     color: var(--text-color-primary);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 .profile-card {
     background-color: var(--background-color-secondary);
+    max-width: 97%;
 }
 
 .profile-card .user-country {
