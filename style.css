@@ -25,7 +25,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
 }
 
 main {
@@ -71,6 +71,24 @@ main {
     font-size: 12px;
     color: var(--text-color-tertiary);
     margin-bottom: 28px;
+}
+
+.profile-card .social-links-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-links-list button {
+    border: none;
+    width: 100%;
+    padding: 14px 0;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.social-links-list li:not(:last-child) {
+    margin-bottom: 14px;
 }
 
 .social-link-button {
