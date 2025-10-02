@@ -11,6 +11,7 @@
     --background-color-tertiary: hsl(0, 0%, 20%);
     --text-color-primary: hsl(0, 0%, 100%);
     --text-color-secondary: hsl(75, 94%, 57%);
+    --text-color-tertiary: hsl(0, 0%, 75%);
 }
 
 *, *::before, *::after {
@@ -64,6 +65,12 @@ main {
 
 .profile-card .user-country {
     color: var(--text-color-secondary);
+}
+
+.profile-card .profile-bio {
+    font-size: 12px;
+    color: var(--text-color-tertiary);
+    margin-bottom: 28px;
 }
 
 .social-link-button {
