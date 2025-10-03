@@ -87,6 +87,12 @@ main {
     font-weight: 600;
 }
 
+.social-links-list button:hover {
+    background-color: var(--text-color-secondary);
+    color: black;
+    cursor: pointer;
+}
+
 .social-links-list li:not(:last-child) {
     margin-bottom: 14px;
 }
