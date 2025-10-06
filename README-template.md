@@ -41,23 +41,37 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+While working on this project, I learned several important concepts and techniques that helped me improve my front-end development skills.
 
-To see how you can add code snippets, see below:
+#### Using Local Fonts
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I learned how to include and use a locally hosted font in my project. This allows for better performance and control over the font files. Here's an example of how I included the Inter variable font:
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@font-face {
+    font-family: 'InterVariable';
+    src: url('Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 100 900; /* Range of weights covered by the variable font */
+    font-style: normal;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+#### CSS Custom Properties (Variables)
+
+Another key concept I explored was CSS variables. By using :root, I was able to define global variables that could be reused throughout the stylesheet. This makes it easier to maintain consistency and adjust styles without searching for each individual property. Here's how I set up my custom properties for colors:
+
+```css
+:root {
+    --background-color-primary: hsl(0, 0%, 8%);
+    --background-color-secondary: hsl(0, 0%, 12%);
+    --background-color-tertiary: hsl(0, 0%, 20%);
+    --text-color-primary: hsl(0, 0%, 100%);
+    --text-color-secondary: hsl(75, 94%, 57%);
+    --text-color-tertiary: hsl(0, 0%, 75%);
 }
 ```
+
+This approach allowed me to easily adjust the theme of the page just by tweaking a few values, without having to change each color property manually.
 
 ## Author
 
